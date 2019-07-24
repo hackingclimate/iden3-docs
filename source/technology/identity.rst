@@ -12,4 +12,4 @@ An identity can be a person, a company, an organization, a DAO, a government. An
 
 When we talk about identities we are referring to identities as accounts.
 
-Generally speaking, accounts are going to be smart contracts. So you can think of identities as smart contracts, where the address of the contract is the identifier of that identity.
+Generally speaking, accounts are going to be smart contracts. So **you can think of identities as smart contracts**, where the address of the contract is the identifier of that identity.
