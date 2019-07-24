@@ -12,8 +12,8 @@ Proof of membership
 Claims
 ######
 
-Appendix
-########
+Definitions
+###########
 
 Hash functions
 **************
