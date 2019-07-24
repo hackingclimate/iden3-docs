@@ -4,7 +4,7 @@
 Claims
 ######
 
-**Identities can provide claims**. You can think of a claim as a statement: something an identity is saying.
+.. _Identities: https://iden3.readthedocs.io/en/latest/technology/identity.html can provide claims. You can think of a claim as a statement: something an identity is saying.
 
 Most of the time, these statements refer to other identities. In other words **claims usually create relations between identities.**
 
