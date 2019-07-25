@@ -4,14 +4,9 @@
 Merkle Tree
 ###########
 
-Introduction
-############
-
 A Merkle tree is a binary tree [link to definition] built using hash pointers [link to definition]. 
 
-Motivation
-##########
-We want to build a data structure that:
+We care about Merkle trees because we want to build a data structure that:
 
 1. Can store lots of data (in our case, **claims**)
 2. Makes it easy to prove that some data exists (**proof of membership**)
@@ -19,7 +14,7 @@ We want to build a data structure that:
 
 It turns out that Merkle trees satisfy these three properties.
 
-Description
+Specification
 ###########
 
 Before we take a closer look at the above properties, let's go through how to build a Merkle tree given some data.
@@ -99,7 +94,7 @@ For those of you who are more technically inclined:
 *This means that if there are n nodes in the tree, only about log(n) items need to be shown. And since each step just requires computing the hash of the child block, it takes about log(n) time for us to verify it. And so even if the Merkle tree contains a very large number of blocks, we can still prove membership in a relatively short time. Verification thus runs in time and space that’s logarithmic in the number of nodes in the tree.* `Source <https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf>`_ (pg 35)
 
 Claims
-##############
+######
 
 At iden3 we use Merkle trees to store claims...
 
