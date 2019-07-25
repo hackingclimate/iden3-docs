@@ -94,17 +94,14 @@ We can ignore the rest of the tree, as the blocks on this path are enough to all
 
 *[image]*
 
-For those of you why are more technically inclined:
+For those of you who are more technically inclined:
 
 *This means that if there are n nodes in the tree, only about log(n) items need to be shown. And since each step just requires computing the hash of the child block, it takes about log(n) time for us to verify it. And so even if the Merkle tree contains a very large number of blocks, we can still prove membership in a relatively short time. Verification thus runs in time and space that’s logarithmic in the number of nodes in the tree.* `Source <https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf>`_ (pg 35)
 
 Claims
 ##############
 
-At iden3 we use Merkle trees to store claims (direct and indirect)...
-
-Definitions
-###########
+At iden3 we use Merkle trees to store claims...
 
 Hash pointers
 *************
