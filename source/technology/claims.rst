@@ -10,9 +10,7 @@ Most of the time, these statements refer to other identities. In other words **c
 
 For example, when a university (identity) says that a student (identity) has a degree, this is a statement (or a claim) about the student. This statement creates a relation between the student and the university.
 
-It turns out that almost anything we say or do can be thought of as a claim. Company invoices, facebook likes, email messages, can all be thought of as claims.
-
-As you can see from the examples above, **claims can be public or private.**
+**Claims can be public or private.** And it turns out that almost anything we say or do can be thought of as a claim. Company invoices, facebook likes, email messages, can all be thought of as claims.
 
 More examples of claims:
 
@@ -32,4 +30,4 @@ More examples of claims:
 
 - A role in a company
 
-As you can see, a claim can be almost anything!
+
