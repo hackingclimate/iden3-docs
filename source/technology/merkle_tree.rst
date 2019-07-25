@@ -8,7 +8,7 @@ A Merkle tree is a binary tree [link to definition] built using hash pointers [l
 
 We care about Merkle trees because we want to build a data structure that:
 
-1. Can store lots of data (in our case, **claims**)
+1. Can store lots of data (**scalability**)
 2. Makes it easy to prove that some data exists (**proof of membership**)
 3. Allows us to check that data hasn't been altered (**tamper resistance**)
 
@@ -93,10 +93,27 @@ For those of you who are more technically inclined:
 
 *This means that if there are n nodes in the tree, only about log(n) items need to be shown. And since each step just requires computing the hash of the child block, it takes about log(n) time for us to verify it. And so even if the Merkle tree contains a very large number of blocks, we can still prove membership in a relatively short time. Verification thus runs in time and space that’s logarithmic in the number of nodes in the tree.* `Source <https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf>`_ (pg 35)
 
-Claims
-######
+Scalability
+############
 
-At iden3 we use Merkle trees to store claims...
+Storing data on a blockchain is expensive. Merkle trees help us minimize the amount of data stored on chain.
+
+How so? As we saw in the previous sections, to ensure tamper resistance and proof of membership we only need to remember the root of the tree, not the whole tree. This means that, no matter how big the tree is, the only piece of data we actually need to store on chain is the root.
+
+Why we use Merkle Trees at iden3
+################################
+
+At iden3, one of our major goals is scalability. Specifically, we believe anybody should be able to create as many identities as they want. And that **any identity should be able to generate as many claims as they want.**
+
+Imagine if you had to make a new transaction to the blockchain every time you wanted to make a new claim? Even worse, imagine you're a government and you're responsible for making millions of claims every day...
+
+To achieve this goal requires minimizing the amount of data stored on chain. This is where Merkle trees come in.
+
+This means that even if you're a government that needs to make millions of claims a day, you can just contruct a tree with each claim as a separate data block, and simply calculate and store the root on chain.
+
+In other words, Merkle trees allow prolific claim generators to add/modify **millions of claims** in a single transaction.
+
+This makes it easy to scale claims.
 
 Hash pointers
 *************
