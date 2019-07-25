@@ -115,6 +115,9 @@ In other words, Merkle trees allow prolific claim generators to add/modify **mil
 
 This makes it easy to scale claims.
 
+Definitions
+###########
+
 Hash pointers
 *************
 
