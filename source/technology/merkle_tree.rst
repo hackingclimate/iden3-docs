@@ -13,7 +13,7 @@ Motivation
 ##########
 We want to build a data structure that:
 
-1. Can store a lot of data (**claims**)
+1. Can store lots of data (in our case, **claims**)
 2. Allows us to efficiently prove that some data exists (**proof of membership**)
 3. Allows us to check that data hasn't been altered (**tamper resistance**)
 
@@ -22,24 +22,22 @@ It turns out that Merkle trees satisfy these three properties.
 Description
 ###########
 
+Before we take a closer look at these three properties, let's go through how to build a Merkle tree.
+
 Suppose we have a number of blocks containing data. And that these blocks make up the leaves of our tree.
 
-We group these data blocks into pairs, and then for each pair, build a data structure that has two hash
-pointers, one to each block.
+The first step is to group these data blocks into pairs.
 
-These data structures make up the next level of the tree.
+Then for each pair of blocks, we build a data structure that has two hash
+pointers, one to each block. In other words, the hash of each block is stored in a parent node -- these parent nodes make up the next level of the tree.
 
-We then group these hash pointers into groups of two, and for each pair, create a new data structure that contains the hash of each.
+Next, the parent nodes are grouped in pairs. And their hashes are in turn stored one level up the tree.
 
 We continue doing this until we reach a single block, the root of the tree.
 
-Don't worry if you're having trouble visualizing this. It's much easier to see with an image.
+If you're having trouble visualizing this, don't worry. An image should help.
 
 [insert image]
-
-Image caption: In a Merkle tree, data blocks are grouped in pairs and the hash of each of
-these blocks is stored in a parent node. The parent nodes are in turn grouped in pairs and their hashes
-stored one level up the tree. This continues all the way up the tree until we reach the root node.
 
 Tamper resistance
 #################
