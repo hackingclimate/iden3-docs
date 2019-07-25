@@ -100,7 +100,7 @@ Storing data on a blockchain is expensive. Merkle trees help us minimize the amo
 
 How so? As we saw in the previous sections, to ensure tamper resistance and proof of membership we only need to remember the root of the tree, not the whole tree. This means that, no matter how big the tree is, the only piece of data we actually need to store on chain is the root.
 
-Why we use Merkle Trees at iden3
+Why we use Merkle trees at iden3
 ################################
 
 At iden3, one of our major goals is scalability. Specifically, we believe anybody should be able to create as many identities as they want. And that **any identity should be able to generate as many claims as they want.**
