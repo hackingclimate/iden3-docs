@@ -26,74 +26,82 @@ Before we take a closer look at the above properties, let's go through how to bu
 
 Suppose we have a number of blocks containing data. And that these blocks make up the leaves of our tree.
 
-[insert image]
+*[image]*
 
 The first step is to group these data blocks into pairs.
 
-[insert image]
+*[image]*
 
 Then for each pair of blocks, we build a data structure that has two hash
 pointers, one to each block.
 
-[insert image]
+*[image]*
 
 In other words, the hash of each block is stored in a parent node. And these parent nodes make up the next level of the tree.
 
-[insert image]
+*[image]*
 
 Next, the parent nodes are in turn grouped in pairs, and their hashes stored one level up the tree.
 
-[insert image]
+*[image]*
 
 We continue doing this until we reach a single block, the root of the tree.
 
-[insert image]
-
+*[image]*
 
 Tamper resistance
 #################
 
-Any attempt to tamper with any piece of data can be detected by just remembering
+It turns out that any attempt to tamper with any piece of data can be detected by just remembering
 the hash pointer at the root of the tree.
 
-To understand why this is the case, let’s look at what happens if an
-adversary wants to tamper with a data block.
+To understand why this is the case, let’s look at what happens if an adversary wants to tamper with a data block.
 
-If an adversary tampers with some block down here.
+If an adversary tampers with a block at the leaf of our tree.
 
-[insert image]
+*[image]*
 
 That will cause the hash pointer that's one level up to not match.
 
-[insert image]
+*[image]*
 
-So she'll have to tamper with that.
+So she'll have to tamper with that too.
 
-[insert image]
+*[image]*
 
 Which means, she'll have to tamper with the hash pointer one level up from there.
 
-[insert image]
+*[image]*
 
-And so on.
+And so on... Eventually she'll get to the root. If she tries to tamper with the hash pointer here, we'll know because this is the pointer we've remembered.
 
-Eventually she'll get to the root. If she tries to tamper with the hash pointer here, we'll know because this is the pointer we've remembered.
-
-[insert image]
+*[image]*
 
 Proof of membership
 ###################
 
-Merkle trees allow us to quickly check membership...
+Merkle trees allow us to quickly check membership. What do we mean by that?
 
-[insert image]
+Say that, as usual, we remember just the root. And we want to prove that a certain data block is a member of the Merkle Tree.
+
+*[image]*
+
+All we need to find is this data block, and the blocks on the path from the data block to the root.
+
+*[image]*
+
+We can ignore the rest of the tree, as the blocks on this path are enough to allow us to verify the hashes all the way up to the root of the tree.
+
+*[image]*
+
+For those of you why are more technically inclined:
+
+*This means that if there are n nodes in the tree, only about log(n) items need to be shown. And since each step just requires computing the hash of the child block, it takes about log(n) time for us to verify it. And so even if the Merkle tree contains a very large number of blocks, we can still prove membership in a relatively short time. Verification thus runs in time and space that’s logarithmic in the number of nodes in the tree.* `Source <https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf>`_ (pg 35)
 
 Claims
 ##############
 
 At iden3 we use Merkle trees to store claims (direct and indirect)...
-
-[insert images]
 
 Definitions
 ###########
