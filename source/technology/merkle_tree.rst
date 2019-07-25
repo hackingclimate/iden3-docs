@@ -53,7 +53,10 @@ We continue doing this until we reach a single block, the root of the tree.
 Tamper resistance
 #################
 
-To understand why Merkle trees are tamper resistant, let’s look at what happens if an
+Any attempt to tamper with any piece of data can be detected by just remembering
+the hash pointer at the root of the tree.
+
+To understand why this is the case, let’s look at what happens if an
 adversary wants to tamper with a data block.
 
 If an adversary tampers with some block down here.
@@ -74,7 +77,7 @@ Which means, she'll have to tamper with the hash pointer one level up from there
 
 And so on.
 
-Eventually she'll get up to the top, where she won't be able to tamper with the hash pointer that we've remembered.
+Eventually she'll get to the root. If she tries to tamper with the hash pointer here, we'll know because this is the pointer we've remembered.
 
 [insert image]
 
