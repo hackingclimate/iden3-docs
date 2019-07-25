@@ -12,7 +12,8 @@ For example, when a university (identity) says that a student (identity) has a d
 
 **Claims can be public or private.** And it turns out that almost anything we say or do can be thought of as a claim. Company invoices, facebook likes, email messages, can all be thought of as claims.
 
-Examples of claims:
+Examples of claims
+##################
 
 - A certificate (e.g. birth certificate)
 
@@ -30,4 +31,11 @@ Examples of claims:
 
 - A role in a company
 
+- ... Almost anything!
+
+Direct claims
+#############
+
+Indirect claims
+###############
 
