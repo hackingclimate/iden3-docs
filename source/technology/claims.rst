@@ -14,7 +14,7 @@ It turns out that almost anything we say or do can be thought of as a claim. Com
 
 As you can see from the examples above, **claims can be public or private.**
 
-Some more examples of claims:
+More examples of claims:
 
 - A certificate (e.g. birth certificate)
 
