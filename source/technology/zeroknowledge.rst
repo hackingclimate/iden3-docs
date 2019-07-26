@@ -10,12 +10,23 @@ In other words, zero-knowledge proofs allow us to prove something without reveal
 
 Why do we care? Simply put, when we are talking about claims, sometimes we want to prove things in a private way.
 
-For example, say you want to enter a nightclub, and you need to prove to the bouncer that you are over 18. But you don't want to reveal to him your name, address, or anything else that's not relevant.
+Examples
+########
+
+Nightclub entry
+***************
+Say you want to enter a nightclub, and you need to prove to the bouncer that you are over 18. But you don't want to reveal to him your name, address, or anything else that's not relevant.
 
 With a zero-knowledge proof you can prove that you hold the key that belongs to an identity that the state says is over 18, without revealing anything else about that identity.
 
-More examples
-#############
+ICO participation
+*****************
+Say an ICO is only available to KYC or authorized users. With ZK proofs you can prove that you are an authorized person to participate in the ICO without revealing who you are or how much you spent.
+
+Anonymous Voting
+****************
+Similar to the above, ZK proofs allow you to prove that you are an eligible identity, without revealing your identity.
+
 
 Non-reusable proofs
 ###################
