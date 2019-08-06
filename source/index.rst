@@ -72,6 +72,8 @@ First, **they are highly insecure, because their simplicity and lack of redundan
 Second, **they are highly thin in that they reduce an individual to a small dimensional object** (in system or out, criminal or not, a credit score, etc.) as the central database has little use for more information than this. This limits the functionality of the system to a relatively small range of cases or degrades performance, often in highly unequal ways (e.g. convicted individuals find it hard to re-enter society as this is the only information about themselves they can reliably convey).
 
 Third, **they are artificial, in the sense that the central information stored for verification usually bears little relation to the social or personal conception of identity of the relevant individual and her communities**. Thus all such information is added on top of the information the individual would naturally store about herself and thus incurs a cost in security, data generation and storage costs or, usually, both.
+
+Recently, new identity paradigms have tried to get around some of these elements. One approach, adopted by “big data” platforms like Facebook and Google, is to overcome thin- ness by storing enormous amounts of detailed information about each individual. we might call this “panoptic identity”. However, such solutions have greatly exacerbated the other two problems, as they require extremely artificial  compromises to intimacy through the global sharing of data with platforms that would not otherwise store it, creating exceptional potential security risks.
 *Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
 
 
