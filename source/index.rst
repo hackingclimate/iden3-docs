@@ -76,6 +76,9 @@ Third, **they are artificial, in the sense that the central information stored f
 Recently, new identity paradigms have tried to get around some of these elements. One approach, adopted by “big data” platforms like Facebook and Google, is to overcome thin- ness by storing enormous amounts of detailed information about each individual. we might call this “panoptic identity”. However, such solutions have greatly exacerbated the other two problems, as they require extremely artificial  compromises to intimacy through the global sharing of data with platforms that would not otherwise store it, creating exceptional potential security risks.
 *Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
 
+Centralized data structures create single points of failure not just for “hacking” but also for a small group, possibly associated with a nation state or profit seeking corporation, to exploit access to and control over a wide range of data for purposes that may not be transparent or democratically accountable.
+*Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
+
 
 as long as an identity consists of a single identifier (like a username or social security number) that will inevitably lead to a big brother.
 https://twitter.com/santisiri/status/1128038509338611712
