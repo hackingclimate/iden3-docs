@@ -63,6 +63,9 @@ https://vitalik.ca/general/2019/04/03/collusion.html
 
 **Why are government/corporate issued identities not good enough?**
 
+Since the emergence of the modern state, identities have typically been verified by credentials such as a passport or social network account issued by a central authority such as a state or corporation (Scott, 1998). Yet such systems have significant capacity limitations (e.g., a passport cannot be used to verify present occupation as often requested by border agents) and security vulnerabilities (e.g., hacking a single database or stealing a single token are often sufficient to compromise much of an individual’s identity). *Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
+
+
 as long as an identity consists of a single identifier (like a username or social security number) that will inevitably lead to a big brother.
 https://twitter.com/santisiri/status/1128038509338611712
 
