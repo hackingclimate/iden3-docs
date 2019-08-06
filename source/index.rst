@@ -5,9 +5,14 @@
 
 |
 
-Iden3 Documentation Site
+Iden3 Developer Portal
 ========================
 
+Welcome to the Iden3 developer portal. Here you'll find eveything you need to get started building with Iden3.
+
+************************************
+What is Iden3 and what are its aims
+************************************
 
 Iden3 is an open source project offering a complete decentralized identity management solution over the public blockchain. It is designed with four fundamental goals in mind:
 
@@ -19,12 +24,16 @@ Iden3 is an open source project offering a complete decentralized identity manag
 
 **Privacy by design** by using Zero Knowledge Proofs to prove claims without revealing any information other than the validity of the claim.
 
-.. note:: Our team can always use your feedback and help to improve the tutorials and material included. If
-          you don't understand something, or cannot find what you are looking for, or have any 
-          suggestion, help us make the documentation better by letting us know!
+************
+Introduction
+************
 
-          Submit an issue or pull request on the `GitHub repository
-          <https://github.com/iden3/iden3-docs/issues>`_
+...
+
+
+*******
+Layout
+*******
 
 This documentation site includes the following sections:
 
@@ -65,3 +74,16 @@ During the comming months, we will be sorting, improving and extending the docum
    :caption: Publications
 
    publications
+
+************
+Contributing
+************
+
+.. note:: Our team can always use your feedback and help to improve the tutorials and material included. If
+          you don't understand something, or cannot find what you are looking for, or have any 
+          suggestion, help us make the documentation better by letting us know!
+
+          Submit an issue or pull request on the `GitHub repository
+          <https://github.com/iden3/iden3-docs/issues>`_
+
+
