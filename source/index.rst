@@ -102,6 +102,8 @@ In addition, as the Third World enters the computer age, digital citizenship is 
 When properly designed and implemented, self-sovereign identity can offer these benefits while also protecting individuals from the ever-increasing control of those in power, who may not have the best interests of the individual at heart.
 http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
 
+provide a natural technological check on authoritarian actions that goes beyond the formal legal protections against them.
+
 **Some use cases**
 
 ...
