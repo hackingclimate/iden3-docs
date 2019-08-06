@@ -65,6 +65,15 @@ https://vitalik.ca/general/2019/04/03/collusion.html
 
 Since the emergence of the modern state, identities have typically been verified by credentials such as a passport or social network account issued by a central authority such as a state or corporation (Scott, 1998). Yet such systems have significant capacity limitations (e.g., a passport cannot be used to verify present occupation as often requested by border agents) and security vulnerabilities (e.g., hacking a single database or stealing a single token are often sufficient to compromise much of an individual’s identity). *Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
 
+such identity systems have several interrelated flaws:
+
+First, **they are highly insecure, because their simplicity and lack of redundancy meant that crucial data such as an ID number constantly had to be given out and yet was also sufficient to impersonate an individual**. Furthermore, because all data is stored in a single repository managed by the state or a corporation, such a repository becomes a natural locus for external hacking or internal corruption.
+
+Second, **they are highly thin in that they reduce an individual to a small dimensional object** (in system or out, criminal or not, a credit score, etc.) as the central database has little use for more information than this. This limits the functionality of the system to a relatively small range of cases or degrades performance, often in highly unequal ways (e.g. convicted individuals find it hard to re-enter society as this is the only information about themselves they can reliably convey).
+
+Third, **they are artificial, in the sense that the central information stored for verification usually bears little relation to the social or personal conception of identity of the relevant individual and her communities**. Thus all such information is added on top of the information the individual would naturally store about herself and thus incurs a cost in security, data generation and storage costs or, usually, both.
+*Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
+
 
 as long as an identity consists of a single identifier (like a username or social security number) that will inevitably lead to a big brother.
 https://twitter.com/santisiri/status/1128038509338611712
