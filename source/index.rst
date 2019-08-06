@@ -89,7 +89,9 @@ http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.ht
 
 ...
 
-**The dream: self-sovereign identity --> sybil resistant anonymous voting systems --> liquid democracy**
+**The dream**
+
+**self-sovereign identity --> sybil resistant anonymous voting systems --> liquid democracy**
 
 Historically, liquid democracy has been impossible to implement on a large scale because it is very hard to ensure one person is not voting multiple times. This is called a Sybil attack...
 
