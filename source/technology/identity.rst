@@ -4,7 +4,7 @@
 Identity
 ########
 
-At iden3, our goal is to democratize identity. We believe that everyone should be empowered to become their own certification authority.
+At iden3, our goal is to democratize identity. We believe that everyone should be empowered to become their own `certification authority <https://en.wikipedia.org/wiki/Certificate_authority>`_.
 
 What do we mean by identity?
 
