@@ -89,7 +89,7 @@ http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.ht
 
 ...
 
-**The dream: Self-sovereign identity --> sybil resistant anonymous voting systems --> liquid democracy**
+**The dream: self-sovereign identity --> sybil resistant anonymous voting systems --> liquid democracy**
 
 Historically, liquid democracy has been impossible to implement on a large scale because it is very hard to ensure one person is not voting multiple times. This is called a Sybil attack...
 
@@ -119,7 +119,6 @@ the exercise of digitally voting every ~2 weeks or so in the
 @makerdao blockchain contract to express my political sentiment regarding interest fees as the very utopia i once dreamt for argentina 🇦🇷.
 https://twitter.com/santisiri/status/1136275188415389696
 
- 
 
 *******
 Layout
@@ -136,6 +135,17 @@ This documentation site includes the following sections:
 * :doc:`Publications <publications>` : includes articles, videos and papers authored by iden3.
 
 During the comming months, we will be sorting, improving and extending the documentation, so don't forget to come back. Thank you!!! 
+
+************
+Contributing
+************
+
+.. note:: Our team can always use your feedback and help to improve the tutorials and material included. If
+          you don't understand something, or cannot find what you are looking for, or have any 
+          suggestion, help us make the documentation better by letting us know!
+
+          Submit an issue or pull request on the `GitHub repository
+          <https://github.com/iden3/iden3-docs/issues>`_
 
 .. toctree::
    :maxdepth: 1
@@ -164,16 +174,3 @@ During the comming months, we will be sorting, improving and extending the docum
    :caption: Publications
 
    publications
-
-************
-Contributing
-************
-
-.. note:: Our team can always use your feedback and help to improve the tutorials and material included. If
-          you don't understand something, or cannot find what you are looking for, or have any 
-          suggestion, help us make the documentation better by letting us know!
-
-          Submit an issue or pull request on the `GitHub repository
-          <https://github.com/iden3/iden3-docs/issues>`_
-
-
