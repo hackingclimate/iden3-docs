@@ -104,6 +104,8 @@ http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.ht
 
 provide a natural technological check on authoritarian actions that goes beyond the formal legal protections against them.
 
+**Our tools**
+
 **Some use cases**
 
 ...
