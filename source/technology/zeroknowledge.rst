@@ -6,9 +6,9 @@ Zero Knowledge
 
 *In cryptography, a zero-knowledge proof or zero-knowledge protocol is a method by which one party (the prover) can prove to another party (the verifier) that they know a value x, without conveying any information apart from the fact that they know the value x.* `Source <https://en.wikipedia.org/wiki/Zero-knowledge_proof>`_ 
 
-In other words, zero-knowledge proofs allow us to prove something without revealing unnecessary information.
+In other words, zero-knowledge proofs allow us to prove something specific without revealing any extra information.
 
-Why do we care? Simply put, when we are talking about claims, sometimes we want to prove things in a private way.
+Why do we care? Simply put, when we're talking about claims, sometimes we want to prove things in a private way.
 
 Examples
 ########
@@ -37,17 +37,26 @@ For example, imagine that you belong to a political party, P. And P has made a p
 
 Say that you want to prove to another identity that you belong to P, but you don't want that other identity to be able to pass on that proof to others. In other words, you want to make sure the proof stays between the two of you.
 
-Zero-knowledge proofs allow us to do this.
+We can do this using zero-knowledge proofs.
 
 How?
 
-To prove something -- let's call it A -- you create a new proof B that is valid either if A is valid or you know the private key of the recipient, R.
+To prove something -- let's call it A -- we can create a new proof B that is valid either if A is valid or we know the private key of the recipient, R.
 
-Clearly you don't know R's private key, so when you share a valid proof B with R, R knows that A must also be valid.
+*[insert image]*
+
+Clearly we don't know R's private key, so when we share a valid proof B with R, R knows that A must be valid.
+
+*[insert image]*
 
 To see why B is non-reusable. Suppose R wants to share B with another recipient R'.
 
+*[insert image]*
+
 Now, from the perspective of R', B is valid either if A is valid or R knows her own private key.
+
+*[insert image]*
 
 But since R clearly knows her own private key, R' can't tell whether A is valid.
 
+*[insert image]*
