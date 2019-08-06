@@ -1,7 +1,7 @@
 .. merkle_tree:
 
 ###########
-Merkle Tree
+Merkle tree
 ###########
 
 A Merkle tree is a binary tree [link to definition] built using hash pointers [link to definition]. 
@@ -12,7 +12,7 @@ We care about Merkle trees because we want to build a data structure that:
 2. Makes it easy to prove that some data exists (**proof of membership**)
 3. Allows us to check that data hasn't been altered (**tamper resistance**)
 
-It turns out that Merkle trees satisfy these three properties.
+Merkle trees satisfy these three properties.
 
 Specification
 ###########
@@ -47,7 +47,7 @@ We continue doing this until we reach a single block, the root of the tree.
 Tamper resistance
 #################
 
-It turns out that any attempt to tamper with any piece of data can be detected by just remembering
+It turns out that any attempt to tamper with any piece of data can be detected by simply remembering
 the hash pointer at the root of the tree.
 
 To understand why this is the case, let’s look at what happens if an adversary wants to tamper with a data block.
@@ -77,7 +77,7 @@ Proof of membership
 
 Merkle trees allow us to quickly check membership. What do we mean by that?
 
-Say that, as usual, we remember just the root. And we want to prove that a certain data block is a member of the Merkle Tree.
+Say that, as usual, we remember just the root. And we want to prove that a certain data block is a member of the Merkle tree.
 
 *[image]*
 
@@ -89,7 +89,7 @@ We can ignore the rest of the tree, as the blocks on this path are enough to all
 
 *[image]*
 
-For those of you who are more technically inclined:
+In technical terms:
 
 *This means that if there are n nodes in the tree, only about log(n) items need to be shown. And since each step just requires computing the hash of the child block, it takes about log(n) time for us to verify it. And so even if the Merkle tree contains a very large number of blocks, we can still prove membership in a relatively short time. Verification thus runs in time and space that’s logarithmic in the number of nodes in the tree.* `Source <https://d28rh4a8wq0iu5.cloudfront.net/bitcointech/readings/princeton_bitcoin_book.pdf>`_ (pg 35)
 
@@ -98,7 +98,7 @@ Scalability
 
 Storing data on a blockchain is expensive. Merkle trees help us minimize the amount of data stored on chain.
 
-How so? As we saw in the previous sections, to ensure tamper resistance and proof of membership we only need to remember the root of the tree, not the whole tree. This means that, no matter how big the tree is, the only piece of data we actually need to store on chain is the root.
+How so? As we saw in the previous sections, to ensure tamper resistance and proof of membership we only need to store the root of the tree, not the whole tree. This means that, no matter how big the tree is, the only piece of data we actually need to store on chain is the root.
 
 Why we use Merkle trees at iden3
 ################################
@@ -109,7 +109,7 @@ Imagine if you had to make a new transaction to the blockchain every time you wa
 
 To achieve this goal requires minimizing the amount of data stored on chain. This is where Merkle trees come in.
 
-This means that even if you're a government that needs to make millions of claims a day, you can just contruct a tree with each claim as a separate data block, and simply calculate and store the root on chain.
+Even if you're a government that's making millions of claims a day, you can just contruct a tree (off chain) with each claim as a separate data block, and simply calculate and store the root on chain.
 
 In other words, Merkle trees allow prolific claim generators to add/modify **millions of claims** in a single transaction.
 
