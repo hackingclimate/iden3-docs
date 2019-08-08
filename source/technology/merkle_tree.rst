@@ -118,10 +118,38 @@ This makes it easy to scale claims.
 Definitions
 ###########
 
+Hash functions
+****************************
+
+A hash function basically maps an input string of any size to an output string of a fixed size.
+
+It must be efficiently computable (by that we mean that for any given input string, we can figure out the output of the hash function in a reasonable amount of time. More technically, computing the hash of an n‐bit string should have a running time that is O(n).
+
+For a hash function to be cryptographically secure, it must have three additional properties: 
+
+(1) Collision resistance
+(2) Hiding
+(3) Puzzle-friendliness
+
+While we won't get into the details here, let's briefly discuss what each of these properties mean.
+
+**Collision resistance** means that nobody can find two inputs that map to the same output.
+
+**Hiding** means that given an output there's no feasible way to figure out the input that generated it.
+
+**Puzzle-friendliness** is a little more complicated. Intuitively it means it's very hard to target the hash function to come out to some particular output value y. Don't worry if you don't see why this property is useful, for our purposes, it isn't very important.
+
+
 Hash pointers
 *************
 
-[insert image]
+A hash pointer is simply a pointer to where some information is stored together with a cryptographic hash of the
+information. A pointer gives you a way to retrieve the information, whereas a hash pointer also gives you a way to verify that the information hasn’t changed.
+
+In other words, a hash pointer is a pointer to where data is stored together with a cryptographic hash of the value of that data at some fixed point in time.
+
+If at some point in the future, we want to check the data hasn't changed, we simply hash the data again and check that the new output (cryptographic hash) matches the previous output. This works because we know that the **collision resistance** property, that nobody can find two inputs that map to the same output. So if the output is the same, the input must also have been the same.
+
 
 Binary trees
 ************
