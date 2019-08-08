@@ -144,8 +144,8 @@ Hash pointers
 *************
 
 A hash pointer is simply a pointer to where some information is stored together with a cryptographic hash of the
-information. A pointer gives you a way to retrieve the information, whereas a hash pointer also gives you a way to verify that the information hasn’t changed.
+information. **A pointer gives you a way to retrieve the information, whereas a hash pointer also gives you a way to verify that the information hasn’t changed.**
 
 In other words, a hash pointer is a pointer to where data is stored together with a cryptographic hash of the value of that data at some fixed point in time.
 
-If at some point in the future, we want to check the data hasn't changed, we simply hash the data again and check that the new output (cryptographic hash) matches the previous output. This works because we know that the **collision resistance** property, that nobody can find two inputs that map to the same output. So if the output is the same, the input must also have been the same.
+If at some point in the future, we want to check the data hasn't changed, we simply hash the data again and check that the new output (cryptographic hash) matches the previous output. This works because we know by the **collision resistance** property of the hash function, that nobody can find two inputs that map to the same output. So if the output is the same, the input must also have been the same.
