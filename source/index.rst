@@ -48,14 +48,12 @@ http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.ht
 
 **Why does it matter?**
 
-Before we drill down further on the concept of self-sovereign identity let's briefly cover why **identity-free games are not good enough.**
-
 In the words of Vitalik:
 
 *Mechanisms that do not rely on identity cannot solve the problem of concentrated interests outcompeting dispersed communities; an identity-free mechanism that empowers distributed communities cannot avoid over-empowering centralized plutocrats pretending to be distributed communities.*
 https://vitalik.ca/general/2019/04/03/collusion.html
 
-Simply put, without an identity mechanism, one can't ensure one human one address, or one human one vote. This means that however you structure the rules of the system, those with the most resources will be able to game it.
+In other words, without an identity mechanism, one can't ensure one human one address, or one human one vote. This means that however you structure the rules of the system, those with the most resources will be able to game it.
 
 How? By pretending to be several humans. This inevitably leads to a centralized plutocracy.
 
@@ -63,35 +61,42 @@ How? By pretending to be several humans. This inevitably leads to a centralized 
 
 Since the emergence of the modern state, identities have typically been verified by credentials such as a passport or social network account issued by a central authority such as a state or corporation.
 
-However such identity systems have several interrelated flaws:
+However, as noted in the paper *Verifying Identity as a Social Intersection*, such identity systems have several interrelated flaws:
 
-First, **they are highly insecure, because their simplicity and lack of redundancy meant that crucial data such as an ID number constantly had to be given out and yet was also sufficient to impersonate an individual**. Furthermore, because all data is stored in a single repository managed by the state or a corporation, such a repository becomes a natural locus for external hacking or internal corruption.
+1. **They are insecure**. Crucial data such as an ID number constantly has to be given out. Yet this is also sufficient to impersonate an individual. On top of this, since all data is stored in a single repository managed by the state or a corporation, it becomes particularly vulnerable to external hacking or internal corruption.
 
-Second, **they are highly thin in that they reduce an individual to a small dimensional object** (in system or out, criminal or not, a credit score, etc.) as the central database has little use for more information than this. This limits the functionality of the system to a relatively small range of cases or degrades performance, often in highly unequal ways (e.g. convicted individuals find it hard to re-enter society as this is the only information about themselves they can reliably convey).
+2. **They narrow you down to one thing** (in system or out, criminal or not, a credit score, etc.). The central database has little use for more information than this. This limits the functionality of the system and results in great injustices (for example convicted individuals find it hard to re-enter society as this is the only information about themselves they can reliably convey).
 
-Third, **they are artificial, in the sense that the central information stored for verification usually bears little relation to the social or personal conception of identity of the relevant individual and her communities**. Thus all such information is added on top of the information the individual would naturally store about herself and thus incurs a cost in security, data generation and storage costs or, usually, both.
+3. **They are artificial**, in the sense that the information stored about you usually bears little relation to what you or your friends think of as your identity.
 
-Recently, new identity paradigms have tried to get around some of these elements. One approach, adopted by “big data” platforms like Facebook and Google, is to overcome thin- ness by storing enormous amounts of detailed information about each individual. we might call this “panoptic identity”. However, such solutions have greatly exacerbated the other two problems, as they require extremely artificial  compromises to intimacy through the global sharing of data with platforms that would not otherwise store it, creating exceptional potential security risks.
-*Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
+To quote directly from the paper:
+
+*Recently, new identity paradigms have tried to get around some of these elements. One approach, adopted by “big data” platforms like Facebook and Google, is to overcome thin- ness by storing enormous amounts of detailed information about each individual. we might call this “panoptic identity”. However, such solutions have greatly exacerbated the other two problems, as they require extremely artificial compromises to intimacy through the global sharing of data with platforms that would not otherwise store it, creating exceptional potential security risks.*
+
+On top of these flaws...
 
 Centralized data structures create single points of failure not just for “hacking” but also for a small group, possibly associated with a nation state or profit seeking corporation, to exploit access to and control over a wide range of data for purposes that may not be transparent or democratically accountable.
 *Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
 
-
-as long as an identity consists of a single identifier (like a username or social security number) that will inevitably lead to a big brother.
-https://twitter.com/santisiri/status/1128038509338611712
-
-Most of us take for granted that we can prove things about ourselves, unaware that over a billion people cannot. Identity is a prerequisite to financial inclusion, and financial inclusion is a big part of solving poverty
-https://medium.com/evernym/7-myths-of-self-sovereign-identity-67aea7416b1
-
 Identity-issuing institutions attempting to disempower marginalized communities by denying them identity documents… (look at the US govnt, Iranian citizens, Github mess...) In a sense Github is an identity issuing institution being forced by the US govnt to disempower Iranian hackers.
 https://vitalik.ca/general/2019/04/03/collusion.html
 
-**What do we mean by self-sovereign?**
 
 If self-sovereign identity was becoming relevant a few years ago, in light of current international crises its importance has skyrocketed..
 http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
 
+Most of us take for granted that we can prove things about ourselves, unaware that over a billion people cannot. Identity is a prerequisite to financial inclusion, and financial inclusion is a big part of solving poverty
+https://medium.com/evernym/7-myths-of-self-sovereign-identity-67aea7416b1
+
+
+To finish off... In the words of Santi Siri:
+
+as long as an identity consists of a single identifier (like a username or social security number) that will inevitably lead to a big brother.
+https://twitter.com/santisiri/status/1128038509338611712
+
+**What do we mean by self-sovereign?**
+
+...
 
 **Why do we need this vision now?**
 
@@ -105,6 +110,8 @@ http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.ht
 provide a natural technological check on authoritarian actions that goes beyond the formal legal protections against them.
 
 **Our tools**
+
+...
 
 **Some use cases**
 
