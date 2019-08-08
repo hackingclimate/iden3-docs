@@ -36,7 +36,7 @@ Examples of claims
 Direct claims
 #############
 
-If an identity wants to create many claims, they can put them all in a database, construct a Merkle tree of that database, and just publish (with a transaction) the root of the Merkle tree on-chain.
+If an identity wants to create many claims, they can put them all in a database, construct a `Merkle tree <https://iden3.readthedocs.io/en/latest/technology/merkle_tree.html>`_ of that database, and just publish (with a transaction) the root of the Merkle tree on-chain.
 
 If the identity wants to update the claims later, they repeat the same process and just publish the new root of the Merkle tree.
 
@@ -51,5 +51,5 @@ This is where indirect claims come in handy. Instead of having to pay gas everyt
 
 The idea is that with relayers, millions of users can create millions of claims on mainnet **without** spending any **gas** (since the relayer is responsible for batching the claims and publishing the transactions).
 
-On top of this, using zero knowledge proofs we can ensure that the relayer is trustless. In other words we can make sure the relayer can't lie about the claims we sent them. The worst they can do is not publish them (and if this happens we as the user always have the choice to change relayers).
+On top of this, using `zero knowledge proofs <https://iden3.readthedocs.io/en/latest/technology/zeroknowledge.html>`_ we can ensure that the relayer is trustless. In other words we can make sure the relayer can't lie about the claims we sent them. The worst they can do is not publish them (and if this happens we as the user always have the choice to change relayers).
 
