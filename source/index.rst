@@ -61,9 +61,9 @@ How? By pretending to be several humans. This inevitably leads to a centralized 
 
 **How is the existing system failing us?**
 
-Since the emergence of the modern state, identities have typically been verified by credentials such as a passport or social network account issued by a central authority such as a state or corporation (Scott, 1998). Yet such systems have significant capacity limitations (e.g., a passport cannot be used to verify present occupation as often requested by border agents) and security vulnerabilities (e.g., hacking a single database or stealing a single token are often sufficient to compromise much of an individual’s identity). *Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
+Since the emergence of the modern state, identities have typically been verified by credentials such as a passport or social network account issued by a central authority such as a state or corporation.
 
-such identity systems have several interrelated flaws:
+However such identity systems have several interrelated flaws:
 
 First, **they are highly insecure, because their simplicity and lack of redundancy meant that crucial data such as an ID number constantly had to be given out and yet was also sufficient to impersonate an individual**. Furthermore, because all data is stored in a single repository managed by the state or a corporation, such a repository becomes a natural locus for external hacking or internal corruption.
 
@@ -86,6 +86,8 @@ https://medium.com/evernym/7-myths-of-self-sovereign-identity-67aea7416b1
 
 Identity-issuing institutions attempting to disempower marginalized communities by denying them identity documents… (look at the US govnt, Iranian citizens, Github mess...) In a sense Github is an identity issuing institution being forced by the US govnt to disempower Iranian hackers.
 https://vitalik.ca/general/2019/04/03/collusion.html
+
+**What do we mean by self-sovereign?**
 
 If self-sovereign identity was becoming relevant a few years ago, in light of current international crises its importance has skyrocketed..
 http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
