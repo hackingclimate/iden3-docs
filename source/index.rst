@@ -28,36 +28,38 @@ Iden3 is an open source project offering a complete decentralized identity manag
 Introduction
 ************
 
-Identity is a uniquely human concept. It is that ineffable “I” of self-consciousness, something that is understood worldwide by every person living in every culture. As René Descartes said, Cogito ergo sum — I think, therefore I am.
+What is an identity? Why does it matter? Why is it important to decentralize it?  How is the existing system failing us? These are some of the important questions we'll try to answer in this introduction.
 
-However, modern society has muddled this concept of identity. Today, nations and corporations conflate driver’s licenses, social security cards, and other state-issued credentials with identity; this is problematic because it suggests a person can lose his very identity if a state revokes his credentials or even if he just crosses state borders. I think, but I am not.
+**What is an identity**?
 
-Identity in the digital world is even trickier. It suffers from the same problem of centralized control, but it’s simultaneously very balkanized: identities are piecemeal, differing from one Internet domain to another.
+There's no better way to start than to quote the words of Christopher Allen:
 
-As the digital world becomes increasingly important to the physical world, it also presents a new opportunity; it offers the possibility of redefining modern concepts of identity. It might allow us to place identity back under our control — once more reuniting identity with the ineffable “I”.
+*Identity is a uniquely human concept. It is that ineffable “I” of self-consciousness, something that is understood worldwide by every person living in every culture. As René Descartes said, Cogito ergo sum — I think, therefore I am.* 
 
-In recent years, this redefinition of identity has begun to have a new name: self-sovereign identity.
+*However, modern society has muddled this concept of identity. Today, nations and corporations conflate driver’s licenses, social security cards, and other state-issued credentials with identity; this is problematic because it suggests a person can lose his very identity if a state revokes his credentials or even if he just crosses state borders. I think, but I am not.*
+
+*Identity in the digital world is even trickier. It suffers from the same problem of centralized control, but it’s simultaneously very balkanized: identities are piecemeal, differing from one Internet domain to another.*
+
+*As the digital world becomes increasingly important to the physical world, it also presents a new opportunity; it offers the possibility of redefining modern concepts of identity. It might allow us to place identity back under our control — once more reuniting identity with the ineffable “I”.*
+
+*In recent years, this redefinition of identity has begun to have a new name: self-sovereign identity.*
 http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
 
-**What do we mean by self-sovereign identity?**
 
-To better understand what we mean by self-sovereign, we need to review some history of identity technology...
-http://www.lifewithalacrity.com/2016/04/the-path-to-self-soverereign-identity.html
+**Why does it matter?**
 
+Before we drill down further on the concept of self-sovereign identity let's briefly cover why **identity-free games are not good enough.**
 
+In the words of Vitalik:
 
-**Why are identity-free games not good enough?**
-
-If one tries to preserve the property of a game being identity-free, building a system where identities don’t matter and only coins do, there is an impossible tradeoff between either failing to incentivize legitimate public goods or over-subsidizing plutocracy.
-https://vitalik.ca/general/2019/04/03/collusion.html
- 
-mechanisms that do not rely on identity cannot solve the problem of concentrated interests outcompeting dispersed communities; an identity-free mechanism that empowers distributed communities cannot avoid over-empowering centralized plutocrats pretending to be distributed communities.
+*Mechanisms that do not rely on identity cannot solve the problem of concentrated interests outcompeting dispersed communities; an identity-free mechanism that empowers distributed communities cannot avoid over-empowering centralized plutocrats pretending to be distributed communities.*
 https://vitalik.ca/general/2019/04/03/collusion.html
 
+Simply put, without an identity mechanism, one can't ensure one human one address, or one human one vote. This means that however you structure the rules of the system, those with the most resources will be able to game it.
 
-...
+How? By pretending to be several humans. This inevitably leads to a centralized plutocracy.
 
-**Why are government/corporate issued identities not good enough?**
+**How is the existing system failing us?**
 
 Since the emergence of the modern state, identities have typically been verified by credentials such as a passport or social network account issued by a central authority such as a state or corporation (Scott, 1998). Yet such systems have significant capacity limitations (e.g., a passport cannot be used to verify present occupation as often requested by border agents) and security vulnerabilities (e.g., hacking a single database or stealing a single token are often sufficient to compromise much of an individual’s identity). *Source: Verifying Identity as a Social Intersection (Immorlica, O.Jackson, Glen Wyl* 
 
