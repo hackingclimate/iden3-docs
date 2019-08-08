@@ -28,10 +28,6 @@ Iden3 is an open source project offering a complete decentralized identity manag
 Introduction
 ************
 
-...
-
-**What is an identity and why is it important?**
-
 Identity is a uniquely human concept. It is that ineffable “I” of self-consciousness, something that is understood worldwide by every person living in every culture. As René Descartes said, Cogito ergo sum — I think, therefore I am.
 
 However, modern society has muddled this concept of identity. Today, nations and corporations conflate driver’s licenses, social security cards, and other state-issued credentials with identity; this is problematic because it suggests a person can lose his very identity if a state revokes his credentials or even if he just crosses state borders. I think, but I am not.
