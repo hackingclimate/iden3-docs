@@ -4,7 +4,7 @@
 Merkle tree
 ###########
 
-A Merkle tree is a  `binary tree <https://en.wikipedia.org/wiki/Binary_tree>`_ built using hash pointers (see the definitions section at the bottom of the page for more on hash functions and hash pointers). 
+A Merkle tree is a  `binary tree <https://en.wikipedia.org/wiki/Binary_tree>`_ built using hash pointers. If you're unfamiliar with what a hash pointer or function is, see the definitions section at the bottom of the page.
 
 We care about Merkle trees because we want to build a data structure that:
 
